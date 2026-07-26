@@ -2,23 +2,19 @@
 const heroBubblesData = {
   governance: {
     de: ['Project Controlling', 'Regulatory Compliance', 'Risikomanagement'],
-    en: ['Project Controlling', 'Regulatory Compliance', 'Risk Management'],
-    fr: ['Project Controlling', 'Conformité réglementaire', 'Gestion des risques']
+    en: ['Project Controlling', 'Regulatory Compliance', 'Risk Management']
   },
   'it-audit': {
     de: ['Cyber Risk Check', 'ITGC', 'IT-Healthcheck'],
-    en: ['Cyber Risk Check', 'ITGC', 'IT Health Check'],
-    fr: ['Cyber Risk Check', 'ITGC', 'IT-Healthcheck']
+    en: ['Cyber Risk Check', 'ITGC', 'IT Health Check']
   },
   isms: {
     de: ['ISO 27001', 'NIST-CSF', 'CISO as a Service'],
-    en: ['ISO 27001', 'NIST-CSF', 'CISO as a Service'],
-    fr: ['ISO 27001', 'NIST-CSF', 'CISO as a Service']
+    en: ['ISO 27001', 'NIST-CSF', 'CISO as a Service']
   },
   compliance: {
     de: ['ISAE 3402', 'SOC 2', 'IKT-Minimalstandard'],
-    en: ['ISAE 3402', 'SOC 2', 'ICT minimum standard'],
-    fr: ['ISAE 3402', 'SOC 2', 'Normes minimale pour les TIC']
+    en: ['ISAE 3402', 'SOC 2', 'ICT minimum standard']
   }
 };
 
@@ -208,13 +204,13 @@ document.querySelectorAll('.ticker-item img').forEach(img => {
 const ajaxForms = [
   {
     id: 'kontaktForm',
-    success: { de: 'Vielen Dank! Ihre Nachricht wurde gesendet.', en: 'Thank you! Your message has been sent.', fr: 'Merci ! Votre message a bien été envoyé.' },
-    error: { de: 'Fehler beim Senden. Bitte versuchen Sie es erneut oder schreiben Sie an contact@bprex.ch.', en: 'Error sending. Please try again or email contact@bprex.ch.', fr: 'Erreur d\'envoi. Veuillez réessayer ou écrire à contact@bprex.ch.' }
+    success: { de: 'Vielen Dank! Ihre Nachricht wurde gesendet.', en: 'Thank you! Your message has been sent.' },
+    error: { de: 'Fehler beim Senden. Bitte versuchen Sie es erneut oder schreiben Sie an contact@bprex.ch.', en: 'Error sending. Please try again or email contact@bprex.ch.' }
   },
   {
     id: 'assessmentForm',
-    success: { de: 'Vielen Dank! Wir melden uns innert eines Werktags mit einem Terminvorschlag per Teams.', en: 'Thank you! We will get back to you within one business day with a Teams appointment proposal.', fr: 'Merci ! Nous revenons vers vous sous un jour ouvrable avec une proposition de rendez-vous Teams.' },
-    error: { de: 'Fehler beim Senden. Bitte versuchen Sie es erneut oder schreiben Sie an contact@bprex.ch.', en: 'Error sending. Please try again or email contact@bprex.ch.', fr: 'Erreur d\'envoi. Veuillez réessayer ou écrire à contact@bprex.ch.' }
+    success: { de: 'Vielen Dank! Wir melden uns innert eines Werktags mit einem Terminvorschlag per Teams.', en: 'Thank you! We will get back to you within one business day with a Teams appointment proposal.' },
+    error: { de: 'Fehler beim Senden. Bitte versuchen Sie es erneut oder schreiben Sie an contact@bprex.ch.', en: 'Error sending. Please try again or email contact@bprex.ch.' }
   }
 ];
 
